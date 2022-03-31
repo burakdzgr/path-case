@@ -1,0 +1,31 @@
+.card-wrapper ul {
+    margin: -10px;
+}
+.card-wrapper ul li {
+    width: calc(100% / 3 - 20px);
+    margin: 10px;
+    padding: 20px;
+}
+.card-img img{
+    width: 253px;
+    height: 142px;
+    object-fit: cover;
+}
+.products-title img{
+    width: 150px;
+    height: 100%;
+    object-fit: cover;
+}
+@media(max-width: 768px){
+    .card-wrapper ul li {
+        width: calc(100% / 2 - 20px);
+    }
+}
+@media(max-width: 640px){
+    .card-wrapper ul li {
+        width: calc(100% / 1 - 20px);
+    }
+    .card-img img{
+        width: 100%;
+    }
+}
